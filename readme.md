@@ -7,8 +7,37 @@ Achieve smooth animations of **ListAdapter** class without changing your already
 existing **RecyclerView Adapters**. Just say goodbye to all **notifyDataSetChanged()** methods
 in your project!
 
+## Installation
 
+Step 1. Add the JitPack repository to your settings.gradle file
 
+```gradle
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' } // Add this line
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' } // Add this line
+    }
+}
+```
+
+Step 2. Add The GlobalExceptionHandler Dependency to your build.gradle(app) file.
+
+```gradle
+dependencies {
+    implementation 'com.github.emirhankolver:RecyclerViewUpdater:1.0.0'
+}
+```
 
 
 ## Usage/Examples
@@ -50,8 +79,6 @@ class RowsAdapter : RecyclerView.Adapter<RowsAdapter.VH>() {
     }
  
 ```
-
-
 
 
 ## Screenshots
