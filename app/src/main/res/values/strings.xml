@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclerViewUpdater Demo</string>
+    <string name="cards">Cards</string>
+    <string name="rows">Rows</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">Search</string>
+</resources>

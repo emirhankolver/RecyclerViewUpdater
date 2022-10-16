@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/cardsFragment">
+
+    <fragment
+        android:id="@+id/cardsFragment"
+        android:name="com.app.recyclerviewupdaterdemo.ui.fragments.CardsFragment"
+        android:label="fragment_cards"
+        tools:layout="@layout/fragment_cards" />
+    <fragment
+        android:id="@+id/rowsFragment"
+        android:name="com.app.recyclerviewupdaterdemo.ui.fragments.RowsFragment"
+        android:label="fragment_rows"
+        tools:layout="@layout/fragment_rows" />
+</navigation>
