@@ -2,6 +2,9 @@
 # RecyclerViewUpdater
 
 ![header](https://raw.githubusercontent.com/emirhankolver/RecyclerViewUpdater/master/assets/banner.png)
+[![](https://visitcount.itsvg.in/api?id=RecyclerViewUpdater&label=Project%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in)
+[![](https://www.codefactor.io/repository/github/emirhankolver/RecyclerViewUpdater/badge)](https://www.codefactor.io/repository/github/emirhankolver/RecyclerViewUpdater)
+[![](https://jitpack.io/v/emirhankolver/RecyclerViewUpdater/month.svg)](https://jitpack.io/v/emirhankolver/RecyclerViewUpdater)
 
 Achieve smooth animations of **ListAdapter** class without changing your already 
 existing **RecyclerView Adapters**. Just say goodbye to all **notifyDataSetChanged()** methods
